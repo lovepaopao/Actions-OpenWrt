@@ -22,8 +22,8 @@ on:
     types: [started]
 
 env:
-# REPO_URL: https://github.com/coolsnowwolf/lede
-  REPO_URL: https://github.com/x-wrt/x-wrt.git
+  REPO_URL: https://github.com/coolsnowwolf/lede
+# REPO_URL: https://github.com/x-wrt/x-wrt.git
   REPO_BRANCH: master
   CONFIG_FILE: .config
   DIY_SH: diy.sh
