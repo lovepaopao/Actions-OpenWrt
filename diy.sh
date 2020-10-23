@@ -22,3 +22,11 @@ sed -i 's/192.168.1.1/192.168.123.99/g' package/base-files/files/bin/config_gene
 #./scripts/feeds update -a
 #./scripts/feeds install -a
 #make menuconfig
+
+
+#run: |
+#    sudo swapoff /swapfile
+#    sudo rm -rf /swapfile /etc/apt/sources.list.d/*
+#    sudo -E apt-get -qq update
+#    sudo -E apt-get -qq install build-essential asciidoc binutils bzip2 gawk gettext git libncurses5-dev libz-dev patch unzip zlib1g-dev lib32gcc1 libc6-dev-i386 subversion flex uglifyjs git-core gcc-multilib p7zip p7zip-full msmtp libssl-dev texinfo libglib2.0-dev xmlto qemu-utils upx libelf-dev autoconf automake libtool autopoint device-tree-compiler
+#    curl -fsSL https://raw.githubusercontent.com/P3TERX/dotfiles/master/.bashrc >> ~/.bashrc
